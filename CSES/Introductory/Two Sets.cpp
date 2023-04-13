@@ -2,13 +2,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef unsigned long long ll;
+// gfg
 int main()
 {
     ll N;
     cin >> N;
     ll sum = (N) * (N + 1) / 2;
     if (sum % 2 == 0)
-    {
+    {   
+        cout<<"YES\n";
         vector<ll> v;  // this will store one part of subset
         vector<ll> v2; // this will store second part of subset
         ll f_sum = sum / 2;
