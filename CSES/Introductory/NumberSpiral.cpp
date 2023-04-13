@@ -6,6 +6,7 @@ int main()
 {
     ll N;
     cin >> N;
+    cin>>N;
     for (ll i = 0; i < N; i++)
     {
         ll x, y;
