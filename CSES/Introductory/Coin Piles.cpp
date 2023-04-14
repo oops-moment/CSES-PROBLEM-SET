@@ -5,7 +5,7 @@ typedef unsigned long long ll;
 // EXPLAINATION : Given you have two pile A nd B alright now say there are x operations such that 
 // 1 is taken from first pile and 2 are taken from second pile , where as say there are are y operations
 // such that x+2y=a and y+2x is b , solving you will get x and y , then you check if they empty array lol xp
-
+// note that twon equaltion are solved using system of linear equation
 int main()
 {
     ll T;
